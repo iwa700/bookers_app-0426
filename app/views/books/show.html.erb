@@ -1,26 +1,13 @@
 
- 
- 
-  
-  <p id="notice">Book was successfully created.</p>
+<p id="notice">Book was successfully created.</p>
 
-<div class = "vsc-initialized">
+    <div class = "vsc-initialized">
         
-       
-        
-       
-    　　
-    　　
-    　　<p id = "notice"><strong>Title:</strong><%= @book.title %></p>
+      　<p id = "notice"><strong>Title:</strong><%= @book.title %></p>
 
         <p id = "notice"><strong>Body:</strong><%= @book.body %></p>
     　　
-    　　
-
-        
-    
- 
-        <span>
+    　　<span>
         <%= link_to "Edit", edit_book_path(@book.id) %>  
         </span>
         
@@ -29,11 +16,5 @@
         <span>
         <%= link_to "Back", books_path %>  
         </span>
-        
-       
-        
-        
-        
-        
         
     </div>
